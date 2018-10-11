@@ -6,6 +6,6 @@ gem "puppet", ENV['PUPPET_VERSION'] || '~> 3.2.0'
 gem "puppet-lint"
 gem "rspec-puppet"
 gem "puppetlabs_spec_helper"
-gem "rspec-system-puppet"
+gem "rspec-system-puppet", ">= 2.0.0"
 gem "vagrant-wrapper"
 gem "puppet-syntax"
